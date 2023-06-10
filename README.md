@@ -1,7 +1,7 @@
 # PashaTask
 
-An api project written in .net 6.0
-Added swagger and its xml documentation
+###An api project written in .net 6.0
+###Added swagger and its xml documentation
 Entityframework used for db operations
 Fluent validation used for validate models
 Automapper used for mapping models
