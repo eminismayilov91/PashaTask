@@ -1,0 +1,6 @@
+2023-06-10 14:54:45,994  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[BirthDate], [e].[CreateDate], [d].[Name] AS [DepartmentName], [e].[Name], [e].[Surname]
+FROM [Employees] AS [e]
+INNER JOIN [Departments] AS [d] ON [e].[DepartmentId] = [d].[Id]
+WHERE [e].[Id] = @__id_0
+ 

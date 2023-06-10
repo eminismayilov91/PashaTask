@@ -1,0 +1,17 @@
+2023-06-10 14:40:54,228  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\Hp\OneDrive\Desktop\Projects\PashaTask\ApiUI\
+ 2023-06-10 14:44:27,456  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (277ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [PashaTaskDb];
+ 2023-06-10 14:44:27,545  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (70ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [PashaTaskDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+ 2023-06-10 14:44:27,566  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+ 2023-06-10 14:44:27,633  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+ 

@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiUI</name>
+    </assembly>
+    <members>
+        <member name="M:ApiUI.Controllers.DepartmentsController.GetAsync(System.Guid)">
+            <summary>
+            Gets one Department by its Id
+            </summary>
+            <param name="DepartmentId"></param>
+            <returns>A Response Model which contains Department model and some field about request status</returns>
+            <response code="200">Returns 200 if request is succesfull</response>
+            <response code="400">Returns 400 something went wrong</response>
+        </member>
+        <member name="M:ApiUI.Controllers.DepartmentsController.GetAllAsync(Entity.Filter.DepartmentFilter)">
+            <summary>
+            Gets Department list by the DepartmentFilter model
+            </summary>
+            <param name="DepartmentFilter"></param>
+            <returns>A Response Model which contains list of Department and some field about request status</returns>
+            <response code="200">Returns 200 if request is succesfull</response>
+            <response code="400">Returns 400 something went wrong</response>
+        </member>
+        <member name="M:ApiUI.Controllers.DepartmentsController.AddAsync(Entity.DTO.DepartmentDTO)">
+            <summary>
+            Adds Department with given field
+            </summary>
+            <param name="DepartmentDTO"></param>
+            <returns>A Response Model which contains an Department and some field about request status</returns>
+            <response code="200">Returns 200 if request is succesfull</response>
+            <response code="400">Returns 400 something went wrong</response>
+        </member>
+        <member name="M:ApiUI.Controllers.DepartmentsController.DeleteAsync(Entity.DTO.DepartmentDTO)">
+            <summary>
+            Deletes Department by its Id, only Id field is required
+            </summary>
+            <param name="DepartmentDTO"></param>
+            <returns>A Response Model which contains an Department and some field about request status</returns>
+            <response code="200">Returns 200 if request is succesfull</response>
+            <response code="400">Returns 400 something went wrong</response>
+        </member>
+        <member name="M:ApiUI.Controllers.DepartmentsController.UpdateAsync(Entity.DTO.DepartmentDTO)">
+            <summary>
+            Updates Department with given field
+            </summary>
+            <param name="DepartmentDTO"></param>
+            <returns>A Response Model which contains an Department and some field about request status</returns>
+            <response code="200">Returns 200 if request is succesfull</response>
+            <response code="400">Returns 400 something went wrong</response>
+        </member>
+        <member name="M:ApiUI.Controllers.EmployeesController.GetAsync(System.Guid)">
+            <summary>
+            Gets one Employee by its Id
+            </summary>
+            <param name="EmployeeId"></param>
+            <returns>A Response Model which contains Employee model and some field about request status</returns>
+            <response code="200">Returns 200 if request is succesfull</response>
+            <response code="400">Returns 400 something went wrong</response>
+        </member>
+        <member name="M:ApiUI.Controllers.EmployeesController.GetEmployeeDetailedInfoByIdAsync(System.Guid)">
+            <summary>
+            Gets one Employee with details by its Id
+            </summary>
+            <param name="EmployeeId"></param>
+            <returns>A Response Model which contains Employee model and some field about request status</returns>
+            <response code="200">Returns 200 if request is succesfull</response>
+            <response code="400">Returns 400 something went wrong</response>
+        </member>
+        <member name="M:ApiUI.Controllers.EmployeesController.GetAllAsync(Entity.Filter.EmployeeFilter)">
+            <summary>
+            Gets Employee list by the EmployeeFilter model
+            </summary>
+            <param name="EmployeeFilter"></param>
+            <returns>A Response Model which contains list of Employee and some field about request status</returns>
+            <response code="200">Returns 200 if request is succesfull</response>
+            <response code="400">Returns 400 something went wrong</response>
+        </member>
+        <member name="M:ApiUI.Controllers.EmployeesController.AddAsync(Entity.DTO.EmployeeDTO)">
+            <summary>
+            Adds Employee with given field
+            </summary>
+            <param name="EmployeeDTO"></param>
+            <returns>A Response Model which contains an Employee and some field about request status</returns>
+            <response code="200">Returns 200 if request is succesfull</response>
+            <response code="400">Returns 400 something went wrong</response>
+        </member>
+        <member name="M:ApiUI.Controllers.EmployeesController.DeleteAsync(Entity.DTO.EmployeeDTO)">
+            <summary>
+            Deletes Employee by its Id, only Id field is required
+            </summary>
+            <param name="EmployeeDTO"></param>
+            <returns>A Response Model which contains an Employee and some field about request status</returns>
+            <response code="200">Returns 200 if request is succesfull</response>
+            <response code="400">Returns 400 something went wrong</response>
+        </member>
+        <member name="M:ApiUI.Controllers.EmployeesController.UpdateAsync(Entity.DTO.EmployeeDTO)">
+            <summary>
+            Updates Employee with given field
+            </summary>
+            <param name="EmployeeDTO"></param>
+            <returns>A Response Model which contains an Employee and some field about request status</returns>
+            <response code="200">Returns 200 if request is succesfull</response>
+            <response code="400">Returns 400 something went wrong</response>
+        </member>
+    </members>
+</doc>

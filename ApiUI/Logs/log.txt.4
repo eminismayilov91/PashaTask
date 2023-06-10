@@ -1,0 +1,17 @@
+2023-06-10 14:44:27,634  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+ 2023-06-10 14:44:27,657  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+ 2023-06-10 14:44:27,661  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+ 2023-06-10 14:44:27,673  INFO Microsoft.EntityFrameworkCore.Migrations.? [?] - MESSAGE: Applying migration '20230610104358_InitialSetup'.
+ 2023-06-10 14:44:27,703  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Departments] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] varchar(100) NULL,
+    [CreateDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Departments] PRIMARY KEY ([Id])
+);
+ 

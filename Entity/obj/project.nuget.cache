@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "j+on77Nez8BbpDLjn5HsClBPD4rCAXm5BtI2DXW6J8JBeYsNF4XZ1LPbfQTUsUvmlEh9viOWykEpjswzgD+8wg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hp\\OneDrive\\Desktop\\Projects\\PashaTask\\Entity\\Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hp\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

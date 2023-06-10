@@ -1,0 +1,17 @@
+2023-06-10 14:44:27,705  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Employees] (
+    [Id] uniqueidentifier NOT NULL,
+    [DepartmentId] uniqueidentifier NOT NULL,
+    [Name] varchar(100) NULL,
+    [Surname] varchar(100) NULL,
+    [BirthDate] datetime2 NOT NULL,
+    [CreateDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Employees] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Employees_Departments_DepartmentId] FOREIGN KEY ([DepartmentId]) REFERENCES [Departments] ([Id]) ON DELETE CASCADE
+);
+ 2023-06-10 14:44:27,712  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Employees_DepartmentId] ON [Employees] ([DepartmentId]);
+ 2023-06-10 14:44:27,714  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230610104358_InitialSetup', N'7.0.5');
+ 

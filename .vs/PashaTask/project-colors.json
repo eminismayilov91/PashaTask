@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f7e1095c-8b41-4098-a473-881e35785b4c": {
+      "ProjectGuid": "f7e1095c-8b41-4098-a473-881e35785b4c",
+      "DisplayName": "ApiUI",
+      "ColorIndex": 0
+    },
+    "0fef522c-ee66-44c9-8d4b-bb999c8117ff": {
+      "ProjectGuid": "0fef522c-ee66-44c9-8d4b-bb999c8117ff",
+      "DisplayName": "Entity",
+      "ColorIndex": 1
+    },
+    "57fd1705-d514-46df-aca9-a383f48c3730": {
+      "ProjectGuid": "57fd1705-d514-46df-aca9-a383f48c3730",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 2
+    },
+    "1947ee6f-aac1-4c2b-90e0-ea8146d65b37": {
+      "ProjectGuid": "1947ee6f-aac1-4c2b-90e0-ea8146d65b37",
+      "DisplayName": "Bussiness",
+      "ColorIndex": 3
+    },
+    "651ead14-f7e4-4d7b-bdc6-9d2470c5f85b": {
+      "ProjectGuid": "651ead14-f7e4-4d7b-bdc6-9d2470c5f85b",
+      "DisplayName": "Core",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
